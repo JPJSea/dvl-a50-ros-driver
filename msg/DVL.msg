@@ -5,8 +5,8 @@ float64 time
 geometry_msgs/Vector3 velocity
 #Figure of Merit
 float64 fom
-# Covariance matrix for the velocities (entries in (m/s)^2). Accceleration part of message is blank
-geometry_msgs/AccelWithCovariance covariance
+# Covariance matrix for the velocities (entries in (m/s)^2).
+float64[] covariance
 #Altitude of the sensor
 float64 altitude
 #Beams/Transducers
